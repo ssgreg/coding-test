@@ -7,22 +7,21 @@ Required data strutures:
 - Lists
 
 Required operations:
-- Get
-- Set
-- Update
-- Remove
-- Push for lists
-- Pop for lists
+- Get for strings
+- Set for strings
+- Update for strings
+- Push back/front for lists
+- Pop front/back for lists
+- Remove for strings and lists
 
 Required features:
 - Keys with a limited TTL
 - Go client API library
 - HTTP REST API
-
+- Data persistence (Postgres or sqlite)
+  
 Add unit tests for Go API and integration tests for REST API (without full coverage, just for example).
-Provide REST API specs with examples, client library API docs and deployment docs (for Docker).
 
 Optional features:
-- Data persistence
 - Perfomance tests
 - Authentication
