@@ -8,8 +8,8 @@ Required data strutures:
 
 Required operations:
 - Get for strings
-- Set for strings
-- Update for strings
+- Insert for strings (should fail if the key already exists)
+- Update for strings (should fail if the key does not exist)
 - Push back/front for lists
 - Pop front/back for lists
 - Remove for strings and lists
